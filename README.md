@@ -40,7 +40,7 @@ STEPS TO REPRODUCE
 
 SYSTEM INFORMATION
 ************************************************
-CPUs	Intel(R) Core(TM) i7 CPU 960 @ 3.20GHz (8 x 3204)
+CPUs	Intel(R) Core(TM) i7 CPU 960 @ 3.20GHz (8 x 3204)  
 GPU Status	2d_canvas: unavailable_software canvas_oop_rasterization: disabled_off  
                                     direct_rendering_display_compositor: disabled_off_ok gpu_compositing:  
                                     disabled_software multiple_raster_threads: enabled_on opengl:  
