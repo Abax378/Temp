@@ -19,10 +19,10 @@ SETUP
 2) Download the zip file 'temp_dir.zip' from https://github.com/Abax378/Temp/blob/main/temp_dir.zip
 Unzip the contents to C:\. The resulting directories and files should be
 
-C:\temp\video_1.mp4
-C:\temp\video_2.mp4
-C:\temp\temp2\video_3.mp4
-C:\temp\temp2\video_3.mp4
+    C:\temp\video_1.mp4
+    C:\temp\video_2.mp4
+    C:\temp\temp2\video_3.mp4
+    C:\temp\temp2\video_3.mp4
 
 3) Download the demo script 'demo_ext_err.ps1' from https://github.com/Abax378/Temp/blob/main/demo_ext_err.ps1
 
