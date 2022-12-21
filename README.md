@@ -16,14 +16,14 @@ SETUP
 ********************************************  
 The demo script tries to act on four mp4 files. The sample mp4 files are very small files that display a count from 1 to 4. I have tried to edit the script to remove the need for the mp4 files but then lose the bug behavior.  
 
-Download the zip file 'temp_dir.zip' from https://github.com/Abax378/Temp/blob/main/temp_dir.zip Unzip the contents to C:. The resulting directories and files should be  
+Download the zip file 'temp_dir.zip' from https://github.com/Abax378/Temp Unzip the contents to C:. The resulting directories and files should be  
 
 C:\temp\video_1.mp4  
 C:\temp\video_2.mp4  
 C:\temp\temp2\video_3.mp4  
 C:\temp\temp2\video_3.mp4  
 
-Download the demo script 'demo_ext_err.ps1' from https://github.com/Abax378/Temp/blob/main/demo_ext_err.ps1  
+Download the demo script 'demo_ext_err.ps1' from https://github.com/Abax378/Temp   
 
 STEPS TO REPRODUCE  
 ********************************************  
@@ -77,3 +77,5 @@ WINDOWS VERSION
 ********************************************  
 Windows 10  
 Version 21H2 (OS Build 19044.2364)  
+
+See logs in log.zip at https://github.com/Abax378/Temp
