@@ -32,7 +32,7 @@ STEPS TO REPRODUCE
 3) Close the script.  
 4) Close VS Code.  
 5) Open VS Code.  
-6) Open the script 'demo_ext_err.ps1'. A PowerShell Extension v2022.12.1 terminal should automatically open up (but no others terminals are open).  
+6) Open the script 'demo_ext_err.ps1'. A PowerShell Extension v2022.12.1 terminal should automatically open.  
 7) Set a breakpoint on line 55. ( Line 55 reads "If ($arrJobs.Count -ne 0) {" ).  
 8) Start debug by placing the cursor anywhere in the script and pressing F5.  
 9) An error about Line 22 should appear in the integrated terminal.  
