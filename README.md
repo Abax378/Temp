@@ -14,26 +14,18 @@ https://github.com/microsoft/terminal/pull/14341
 
 SETUP  
 ********************************************  
-The demo script tries to act on four mp4 files. The sample mp4 files are very small files that display a count from 1 to 4. I have tried to edit the script to remove the need for the mp4 files but then lose the bug behavior.  
-
-Download the zip file 'temp_dir.zip' from https://github.com/Abax378/Temp Unzip the contents to C:. The resulting directories and files should be  
-
-C:\temp\video_1.mp4  
-C:\temp\video_2.mp4  
-C:\temp\temp2\video_3.mp4  
-C:\temp\temp2\video_3.mp4  
-
-Download the demo script 'demo_ext_err.ps1' from https://github.com/Abax378/Temp   
+The demo script tries to divide 1 by 0, raising an error.  
+Download the demo script 'demo_2.ps1' from https://github.com/Abax378/Temp   
 
 STEPS TO REPRODUCE  
 ********************************************  
-1) Open the script 'demo_ext_err.ps1' with VS Code. The Powershell extension terminal should be visible (by default).  
+1) Open the script 'demo_2.ps1' with VS Code. The Powershell extension terminal should be visible (by default).  
 2) Kill the Powershell extension terminal. Answer no to the Restart dialog and kill the "Go to output window" dialog.  
 3) Close the script.  
 4) Close VS Code.  
 5) Open VS Code.  
-6) Open the script 'demo_ext_err.ps1'. A PowerShell Extension v2022.12.1 terminal should automatically open.  
-7) Set a breakpoint on line 55. ( Line 55 reads "If ($arrJobs.Count -ne 0) {" ).  
+6) Open the script 'demo_2.ps1'. A PowerShell Extension v2022.12.1 terminal should automatically open.  
+7) Set a breakpoint on line 29. ( Line 55 reads "If ($arrJobs.Count -gt 0) {" ).  
 8) Start debug by placing the cursor anywhere in the script and pressing F5.  
 9) An error about Line 22 should appear in the integrated terminal.  
 
